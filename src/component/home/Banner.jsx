@@ -74,16 +74,16 @@ const Banner = () => {
     }, []); // Reinitialize slider on location change
 
   return (
-    <section class="page_slider">
-    <div class="flexslider vertical home_slider">
-        <ul class="slides">
-        <li class="ds s-overlay cover-image text-center">
-                <span class="social-icons animate" data-animation="fadeInUp">
-                    <a href="#" class="fa fa-facebook bg-light border-icon rounded-icon"
+    <section className="page_slider">
+    <div className="flexslider vertical home_slider">
+        <ul className="slides">
+        <li className="ds s-overlay cover-image text-center">
+                <span className="social-icons animate" data-animation="fadeInUp">
+                    <a href="#" className="fa fa-facebook bg-light border-icon rounded-icon"
                         title="facebook"></a>
-                    <a href="#" class="fa fa-twitter bg-light border-icon rounded-icon"
+                    <a href="#" className="fa fa-twitter bg-light border-icon rounded-icon"
                         title="twitter"></a>
-                    <a href="#" class="fa fa-google-plus bg-light border-icon rounded-icon"
+                    <a href="#" className="fa fa-google-plus bg-light border-icon rounded-icon"
                         title="google"></a>
                 </span>
                 <video muted loop ref={videoRef}
@@ -96,27 +96,27 @@ const Banner = () => {
                         id="vid1" loop/>
                 </video> 
                 <img src="/images/banner-1.webp" alt="img"/>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="intro_layers_wrapper intro_text_bottom">
-                                <div class="intro_layers">
-                                    <div class="intro-layer">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="intro_layers_wrapper intro_text_bottom">
+                                <div className="intro_layers">
+                                    <div className="intro-layer">
                                     
                                     </div>
-                                    <div class="intro-layer mt-10">
-                                        <h2><span class="semibold">Empowering Driven</span> Individuals To Live their
-                                        <span class="semibold"> Best Life</span></h2>
+                                    <div className="intro-layer mt-10">
+                                        <h2><span className="semibold">Empowering Driven</span> Individuals To Live their
+                                        <span className="semibold"> Best Life</span></h2>
                                     </div>
-                                    <div class="divider-35"></div>
-                                    <div class="divider-xl-50"></div>
-                                    <div class="divider-30 hidden-xl"></div>
-                                    <div class="button">
+                                    <div className="divider-35"></div>
+                                    <div className="divider-xl-50"></div>
+                                    <div className="divider-30 hidden-xl"></div>
+                                    <div className="button">
                                         <ul>
-                                            <li class="button-li">
+                                            <li className="button-li">
                                                 <a href="#"> Join Now
                                                     <span></span><span></span><span></span><span></span>
-                                                    <i class="fa fa-arrow-right"></i>
+                                                    <i className="fa fa-arrow-right"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -134,34 +134,34 @@ const Banner = () => {
                 </div>
             </li>
     
-            <li class="ds s-overlay cover-image text-center">
-                <span class="social-icons animate" data-animation="fadeInUp">
-                    <a href="#" class="fa fa-facebook bg-light border-icon rounded-icon"
+            <li className="ds s-overlay cover-image text-center">
+                <span className="social-icons animate" data-animation="fadeInUp">
+                    <a href="#" className="fa fa-facebook bg-light border-icon rounded-icon"
                         title="facebook"></a>
-                    <a href="#" class="fa fa-twitter bg-light border-icon rounded-icon"
+                    <a href="#" className="fa fa-twitter bg-light border-icon rounded-icon"
                         title="twitter"></a>
-                    <a href="#" class="fa fa-google-plus bg-light border-icon rounded-icon"
+                    <a href="#" className="fa fa-google-plus bg-light border-icon rounded-icon"
                         title="google"></a>
                 </span>
                 <img src="/images/slide02.jpg" alt="img"/>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="intro_layers_wrapper intro_text_bottom">
-                                <div class="intro_layers">
-                                    <div class="intro-layer mt-10">
-                                        <h2><span class="semibold">It Feels Good</span> to Be Lost In
-                                            The Right <span class="semibold">Direction</span></h2>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="intro_layers_wrapper intro_text_bottom">
+                                <div className="intro_layers">
+                                    <div className="intro-layer mt-10">
+                                        <h2><span className="semibold">It Feels Good</span> to Be Lost In
+                                            The Right <span className="semibold">Direction</span></h2>
                                     </div>
-                                    <div class="divider-35"></div>
-                                    <div class="divider-xl-50"></div>
-                                    <div class="divider-30 hidden-xl"></div>
-                                    <div class="button">
+                                    <div className="divider-35"></div>
+                                    <div className="divider-xl-50"></div>
+                                    <div className="divider-30 hidden-xl"></div>
+                                    <div className="button">
                                         <ul>
-                                            <li class="button-li">
+                                            <li className="button-li">
                                                 <a href="#"> Join Now
                                                     <span></span><span></span><span></span><span></span>
-                                                    <i class="fa fa-arrow-right"></i>
+                                                    <i className="fa fa-arrow-right"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -172,33 +172,33 @@ const Banner = () => {
                     </div>
                 </div>
             </li>
-            <li class="ds s-overlay cover-image text-center">
-                <span class="social-icons animate" data-animation="fadeInUp">
-                    <a href="#" class="fa fa-facebook bg-light border-icon rounded-icon"
+            <li className="ds s-overlay cover-image text-center">
+                <span className="social-icons animate" data-animation="fadeInUp">
+                    <a href="#" className="fa fa-facebook bg-light border-icon rounded-icon"
                         title="facebook"></a>
-                    <a href="#" class="fa fa-twitter bg-light border-icon rounded-icon"
+                    <a href="#" className="fa fa-twitter bg-light border-icon rounded-icon"
                         title="twitter"></a>
-                    <a href="#" class="fa fa-google-plus bg-light border-icon rounded-icon"
+                    <a href="#" className="fa fa-google-plus bg-light border-icon rounded-icon"
                         title="google"></a>
                 </span>
                 <img src="/images/pbg-2.png" alt="img"/>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="intro_layers_wrapper intro_text_bottom">
-                                <div class="intro_layers">
-                                    <div class="intro-layer mt-10">
-                                        <h2><span class="semibold">Blending fun</span> with professionalism every step of the <span class="semibold">way</span></h2>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="intro_layers_wrapper intro_text_bottom">
+                                <div className="intro_layers">
+                                    <div className="intro-layer mt-10">
+                                        <h2><span className="semibold">Blending fun</span> with professionalism every step of the <span className="semibold">way</span></h2>
                                     </div>
-                                    <div class="divider-35"></div>
-                                    <div class="divider-xl-50"></div>
-                                    <div class="divider-30 hidden-xl"></div>
-                                    <div class="button">
+                                    <div className="divider-35"></div>
+                                    <div className="divider-xl-50"></div>
+                                    <div className="divider-30 hidden-xl"></div>
+                                    <div className="button">
                                         <ul>
-                                            <li class="button-li">
+                                            <li className="button-li">
                                                 <a href="#"> Join Now
                                                     <span></span><span></span><span></span><span></span>
-                                                    <i class="fa fa-arrow-right"></i>
+                                                    <i className="fa fa-arrow-right"></i>
                                                 </a>
                                             </li>
                                         </ul>

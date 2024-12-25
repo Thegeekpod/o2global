@@ -3,42 +3,42 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-4">
-                    <div class="footer_div_1">
-                        <a href="index.php"><img src="images/logo2.jpg" alt="Logo" class="footer_logo"/></a>
+    <div className="footer-top">
+        <div className="container">
+            <div className="row">
+                <div className="col-sm-6 col-md-6 col-lg-4">
+                    <div className="footer_div_1">
+                        <a href="index.php"><img src="images/logo2.jpg" alt="Logo" className="footer_logo"/></a>
                         
-                        <p class="footer_p_1">We offer products to enhance lives and help start your own
+                        <p className="footer_p_1">We offer products to enhance lives and help start your own
                             business. Come join us to turn your dreams into reality.</p>
-                        <ul class="team-social footer-social">
-                            <li class="share-icon">
+                        <ul className="team-social footer-social">
+                            <li className="share-icon">
                                 <a href="https://www.facebook.com/o2Globalnow" target="_blank">
-                                    <i class="fa fa-facebook-f"></i>
+                                    <i className="fa fa-facebook-f"></i>
                                 </a>
                             </li>
-                            <li class="share-icon">
+                            <li className="share-icon">
                                 <a href="javascript:void(0)">
                                    
                                     <b>x</b>
                                 </a>
                             </li>
-                            <li class="share-icon">
+                            <li className="share-icon">
                                 <a href="https://www.instagram.com/o2globalnow" target="_blank">
-                                    <i class="fa fa-instagram"></i>
+                                    <i className="fa fa-instagram"></i>
                                 </a>
                             </li>
                            
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-1"></div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-6">
-                    <div class="footer-widget">
+                <div className="col-sm-12 col-md-6 col-lg-1"></div>
+                <div className="col-sm-6 col-md-6 col-lg-4 col-6">
+                    <div className="footer-widget">
                         <h5>Quick links</h5>
                         <ul>
-                        <li class="active">
+                        <li className="active">
                                 <a href="index.php">Home</a>
 
                             </li>
@@ -61,8 +61,8 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 col-6">
-                    <div class="footer-widget">
+                <div className="col-sm-6 col-md-6 col-lg-3 col-6">
+                    <div className="footer-widget">
                         <h5>Other links</h5>
                         <ul>
                         
@@ -86,10 +86,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div class="mt-3">
-                <div class="text-center">
-                    <div class="copyright">
-                        <p class="copyright footer_p_4 mb-0">Copyright © 2024. All rights reserved | Designed
+            <div className="mt-3">
+                <div className="text-center">
+                    <div className="copyright">
+                        <p className="copyright footer_p_4 mb-0">Copyright © 2024. All rights reserved | Designed
                             &amp; Developed by <a href="https://www.iwebnext.com/" style={{color: 'white'}}
                                 target="_blank">Iwebnext</a></p>
                     </div>
