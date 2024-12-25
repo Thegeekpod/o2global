@@ -1,0 +1,143 @@
+
+/* footer  */
+.footer_ul_li li {
+  color: white;
+}
+
+.footer_ul_li {
+  margin-left: 23px;
+}
+
+.sndsection_img_1 {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 770px) {
+  .logo-color {
+    display: block !important;
+  }
+}
+
+/* member  */
+
+
+.member-height {
+  height: 243px;
+}
+.list-styled li{
+  color: #3a3630 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  padding: 4px 0 6px 31px !important;
+  position: relative;
+}
+.new-card-inner {
+box-shadow: 0 5px 29px 0 lightgrey;
+padding: 30px;
+border-top: 5px solid #0b9901;
+background: #f3ffef;
+  border-radius: 20px;
+}
+.new-card-heading-div-p {
+margin: 0;
+font-size: 14px;
+font-weight: 600;
+}
+.new-card-heading-div-h3 {
+font-size: 38px;
+color: #1db7eb;
+margin: 0;
+font-weight: 600;
+}
+.new-card-heading-div {
+margin-bottom: 42px;
+}
+.new-card-heading-div-p1 {
+font-size: 15px;
+font-weight: 500;
+}
+.new-card-ul {
+padding: 0;
+list-style: none;
+margin-bottom: 34px;
+}
+.new-card-i {
+font-weight: 300;
+color: #92e4ff;
+}
+.new-card-i2 {
+font-weight: 300;
+color: #ff8d8d;
+}
+.new-card-li {
+margin: 10px 0;
+}
+.new-card-span {
+font-size: 13px;
+color: #424242;
+margin-left: 4px;
+}
+.new-card-span2 {
+font-size: 13px;
+color: gray;
+margin-left: 4px;
+}
+.card-bottom {
+display: flex;
+justify-content: space-between;
+font-size: 13px;
+}
+.card-bottom-p{
+margin:  5px 0;
+}
+.btn-join {
+color: #1db7eb;
+border: 1px solid #1db7eb;
+background: none;
+width: 100%;
+margin-top: 23px;
+padding: 10px;
+border-radius: 50px;
+}
+.btn-join:hover{
+background: #1db7eb;
+color: white;
+}
+.ds .color-main {
+color: #d1d1d1;
+}
+.bg-2 {
+background: #f2f6ff;
+border-top: 5px solid #0031a1;
+}
+.bg-3 {
+background: #f2ecff;
+border-top: 5px solid #4600df;
+}
+.travel_credits_area  .post.side-item .item-content {
+padding-bottom: 32px;
+display: flex;
+align-items: center;
+}
+.membership_area {
+   margin:  0; 
+}
+.section-spacing {
+   padding:  0;
+}
+.p-font-size{
+  font-size: 36px !important;
+}
+@media screen and (max-width: 767px){
+  .member-height {
+      height: auto;
+  }
+  .membership_area {
+      margin: 0px 0 0 0;
+  }
+  .section-spacing {
+      padding: 0px 0 0px 0;
+  }
+}
