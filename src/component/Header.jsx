@@ -10,7 +10,7 @@ const Header = () => {
 	<section className="page_topline ds">
 		<div className="container-fluid">
 			<div className="row align-items-center">
-				<div className="col-12 col-md-4 col-xl-4">
+				<div className="col-12 col-md-4 col-xl-4 p-0">
 					<div className="media">
 						<div className="media-body">
 							<a to="/" className="logo">
@@ -26,16 +26,16 @@ const Header = () => {
 		<header className="page_header ls justify-nav-center">
 		<div className="container-fluid">
 			<div className="row align-items-lg-end align-items-center">
-				<div className="col-4 col-lg-3 col-md-4  d-flex">
-					<a to="/" className="logo">
+				<div className="col-2 col-lg-2 col-md-2 p-0 d-flex">
+					<a to="/" className="logo main_logo_pd">
 						<img src="/images/logo2.jpg" alt="img" className="logo-color"/>
 					</a>
 				</div>
 
-				<div className="col-lg-9 col-1">
+				<div className="col-lg-10 col-1 p-0">
 				
 					<nav className="top-nav">
-						<ul className="nav new-nav">
+						<ul className="nav new-nav other_manu">
 							<li className={location.pathname === '/' ? 'active' : ''}>
 								<Link to="/">Home</Link>
 							</li>
@@ -58,12 +58,20 @@ const Header = () => {
 								<a href="about-us.php">About Us</a>
 							</li>
 
-							<li >
+							{/* <li >
 								<a href="https://o2ix.com/customer">Join Now</a>
 							</li>
 							<li>
 								<a href="https://o2ix.com/customer">Log In</a>
-							</li>
+							</li> */}
+						</ul>
+						<ul className="nav new-nav joinus_login">
+							<li className="border_right">
+                                <a href="https://o2ix.com/customer">Join Now</a>
+                            </li>
+                            <li>
+                                <a href="https://o2ix.com/customer">Login</a>
+                            </li>
 						</ul>
 					</nav>
 				</div>

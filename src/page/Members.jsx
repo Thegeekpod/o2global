@@ -8,12 +8,9 @@ const Members = () => {
                 <section className="page_title ds s-py-5">
                     <div className="container">
                         <div className="row">
-
                             <div className="col-md-12 text-center">
                                 <h1 className="bold">Membership </h1>
-
                             </div>
-
                         </div>
                     </div>
                 </section>
@@ -25,7 +22,7 @@ const Members = () => {
                             <div className="col-lg-7 col-md-7 col-12">
                                 <div className="membership_div_5">
                                     <p className="membership_p_2">
-                                        Unlock a World of <span className="membership_span_1">Adventure and Savings with</span> Our Travel Subscription
+                                        Unlock a World of Adventure and Savings with Our Travel Subscription
                                     </p>
                                     <p className="membership_p_3">
                                         Are you passionate about exploring new destinations, discovering hidden gems, and creating unforgettable memories? Our exclusive travel membership offers the perfect solution for avid travelers who seek to experience the world without breaking the bank. With our carefully curated travel subscription, you can enjoy unparalleled access to a wide range of benefits designed to make your journeys more exciting, convenient, and affordable.
@@ -103,7 +100,7 @@ const Members = () => {
                                 <div className="button" data-toggle="modal" data-target="#exampleModalCenter">
                                     <ul>
                                         <li className="button-li">
-                                            <a href="javascript:void(0)"> Join Now
+                                            <a href="javascript:void(0)"> Join Now &nbsp;
                                                 <span></span><span></span><span></span><span></span>
                                                 <i className="fa fa-arrow-right"></i>
                                             </a>
@@ -324,7 +321,7 @@ const Members = () => {
                             <div className="button" data-toggle="modal" data-target="#exampleModalCenter">
                                 <ul>
                                     <li className="button-li">
-                                        <a href="javascript:void(0)"> Join Now
+                                        <a href="javascript:void(0)"> Join Now &nbsp;
                                             <span></span><span></span><span></span><span></span>
                                             <i className="fa fa-arrow-right"></i>
                                         </a>

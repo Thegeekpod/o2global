@@ -159,7 +159,7 @@ const Home = () => {
 			            	<div className="button stay_button socialmedia_btn_1">
 								<ul>
 									<li className="button-li">
-										<a href="social-media.php"> View all
+										<a href="social-media.php"> View all &nbsp;
 											<span></span><span></span><span></span><span></span>
 											<i className="fa fa-arrow-right"></i>
 										</a>
