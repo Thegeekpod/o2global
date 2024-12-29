@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Events = () => {
   return (
@@ -11,7 +12,7 @@ const Events = () => {
               <h1 className="bold">Events</h1>
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="index.php">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li className="breadcrumb-item active">Events</li>
               </ol>

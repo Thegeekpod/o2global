@@ -18,7 +18,7 @@ const Opportunity = () => {
                                 <h1 className="bold">Opportunity</h1>
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item">
-                                        <a href="index.php">Home</a>
+                                    <Link to="/">Home</Link>
                                     </li>
                                     <li className="breadcrumb-item active">Opportunity</li>
                                 </ol>
