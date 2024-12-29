@@ -13,9 +13,9 @@ const Header = () => {
 				<div className="col-12 col-md-4 col-xl-4 p-0">
 					<div className="media">
 						<div className="media-body">
-							<a to="/" className="logo">
+							<Link to="/" className="logo">
 								<img src="/images/logo1-white.png" alt="img" className="nav-upper-header1"/>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -27,9 +27,9 @@ const Header = () => {
 		<div className="container-fluid">
 			<div className="row align-items-lg-end align-items-center">
 				<div className="col-2 col-lg-2 col-md-2 p-0 d-flex">
-					<a to="/" className="logo main_logo_pd">
+					<Link to="/" className="logo main_logo_pd">
 						<img src="/images/logo2.jpg" alt="img" className="logo-color"/>
-					</a>
+					</Link>
 				</div>
 
 				<div className="col-lg-10 col-1 p-0">
@@ -43,34 +43,34 @@ const Header = () => {
 								<NavLink to="/membership">Membership</NavLink>
 							</li>
 							<li >
-								<a href="/opportunity">Opportunity</a>
+								<Link to="/opportunity">Opportunity</Link>
 							</li>
 							<li>
-								<a href="/training">Training</a>
+								<Link to="/training">Training</Link>
 							</li>
 							<li >
-								<a href="/events">Events</a>
+								<Link to="/events">Events</Link>
 							</li>
 							<li className="new-nav-li">
-								<a href="https://97702a.myshopify.com/password">O2 Global Gear</a>
+								<Link to="https://97702a.myshopify.com/password">O2 Global Gear</Link>
 							</li>
 							<li >
-								<a href="/about-us">About Us</a>
+								<Link to="/about-us">About Us</Link>
 							</li>
 
 							{/* <li >
-								<a href="https://o2ix.com/customer">Join Now</a>
+								<Link href="https://o2ix.com/customer">Join Now</Link>
 							</li>
 							<li>
-								<a href="https://o2ix.com/customer">Log In</a>
+								<Link href="https://o2ix.com/customer">Log In</Link>
 							</li> */}
 						</ul>
 						<ul className="nav new-nav joinus_login">
 							<li className="border_right">
-                                <a href="https://o2ix.com/customer">Join Now</a>
+                                <Link to="https://o2ix.com/customer">Join Now</Link>
                             </li>
                             <li>
-                                <a href="https://o2ix.com/customer">Login</a>
+                                <Link to="https://o2ix.com/customer">Login</Link>
                             </li>
 						</ul>
 					</nav>

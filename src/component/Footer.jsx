@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-sm-6 col-md-6 col-lg-4">
                             <div className="footer_div_1">
-                                <a href="index.php"><img src="images/logo2.jpg" alt="Logo" className="footer_logo" /></a>
+                                <Link to="/"><img src="images/logo2.jpg" alt="Logo" className="footer_logo" /></Link>
 
                                 <p className="footer_p_1 footer-boder">We offer products to enhance lives and help start your own
                                     business. Come join us to turn your dreams into reality.</p>
@@ -18,20 +18,20 @@ const Footer = () => {
 
                                 <ul className="team-social footer-social">
                                     <li className="share-icon">
-                                        <a href="https://www.facebook.com/o2Globalnow" target="_blank">
+                                        <Link to="https://www.facebook.com/o2Globalnow" target="_blank">
                                             <i className="fa fa-facebook-f"></i>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="share-icon">
-                                        <a href="#">
+                                        <Link to="#">
 
                                             <b>x</b>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="share-icon">
-                                        <a href="https://www.instagram.com/o2globalnow" target="_blank">
+                                        <Link to="https://www.instagram.com/o2globalnow" target="_blank">
                                             <i className="fa fa-instagram"></i>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="footer_usa_li share-icon">
                                         <img src="https://inextwebs.com/o2globaltravel/public/frontend/images/nkimg/Flag_of_the_United_States.png" alt="Logo" className="footer_logo1" />
@@ -40,24 +40,24 @@ const Footer = () => {
                                 <div className="footer-logo-icon ">
                                     <ul className="footer-logo-icon-ul">
                                         <li className="footer-logo-icon-li">
-                                            <a href="#" className="footer-logo-icon-a">
+                                            <Link to="#" className="footer-logo-icon-a">
                                                 <img src="https://inextwebs.com/o2globaltravel/public/frontend/images/nkimg/visa.png" className="footer-logo-icon-img" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="footer-logo-icon-li">
-                                            <a href="#" className="footer-logo-icon-a">
+                                            <Link to="#" className="footer-logo-icon-a">
                                                 <img src="https://inextwebs.com/o2globaltravel/public/frontend/images/nkimg/business.png" className="footer-logo-icon-img" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="footer-logo-icon-li">
-                                            <a href="#" className="footer-logo-icon-a">
+                                            <Link to="#" className="footer-logo-icon-a">
                                                 <img src="https://inextwebs.com/o2globaltravel/public/frontend/images/nkimg/discover.png" className="footer-logo-icon-img" />
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="footer-logo-icon-li">
-                                            <a href="#" className="footer-logo-icon-a">
+                                            <Link to="#" className="footer-logo-icon-a">
                                                 <img src="https://inextwebs.com/o2globaltravel/public/frontend/images/nkimg/american-express.png" className="footer-logo-icon-img" />
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -69,25 +69,25 @@ const Footer = () => {
                                 <h5>Quick links</h5>
                                 <ul>
                                     <li className="active">
-                                        <a href="/">Home</a>
+                                        <Link to="/">Home</Link>
                                     </li>
                                     <li>
-                                        <a href="/membership">Membership</a>
+                                        <Link to="/membership">Membership</Link>
                                     </li>
                                     <li>
-                                        <a href="/opportunity">Opportunity</a>
+                                        <Link to="/opportunity">Opportunity</Link>
                                     </li>
                                     <li>
-                                        <a href="/training">Training</a>
+                                        <Link to="/training">Training</Link>
                                     </li>
                                     <li>
-                                        <a href="/about-us">About Us</a>
+                                        <Link to="/about-us">About Us</Link>
                                     </li>
                                     <li>
-                                        <a href="/events">Events</a>
+                                        <Link to="/events">Events</Link>
                                     </li>
                                     <li>
-                                        <a href="/contact-us">Contact Us</a>
+                                        <Link to="/contact-us">Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -104,16 +104,16 @@ const Footer = () => {
                                         <Link to="/privacy-policy">Privacy Policy</Link>
                                     </li>
                                     <li className="manage_padding">
-                                        <a href="https://97702a.myshopify.com/password">O2 Global Gear</a>
+                                        <Link to="https://97702a.myshopify.com/password">O2 Global Gear</Link>
                                     </li>
                                     <li className="manage_padding">
-                                        <a href="#">Our Blogs</a>
+                                        <Link to="#">Our Blogs</Link>
                                     </li>
                                     <li className="manage_padding">
-                                        <a href="https://o2ix.com/customer">Join Now</a>
+                                        <Link to="https://o2ix.com/customer">Join Now</Link>
                                     </li>
                                     <li className="manage_padding">
-                                        <a href="https://o2ix.com/customer">Log In</a>
+                                        <Link to="https://o2ix.com/customer">Log In</Link>
                                     </li>
                                 </ul>
                             </div>
