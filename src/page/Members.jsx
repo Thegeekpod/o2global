@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Members = () => {
+    const [show, setShow] = useState(false);
+
+    const handleClick = () => {
+      setShow((prevShow) => !prevShow); // Toggle the show state
+    };
     return (
         <div>
             <div className="header_absolute cover-background ds s-overlay s-parallax">
@@ -31,7 +36,7 @@ const Members = () => {
                             </div>
                             <div className="col-lg-5 col-md-5 col-12">
                                 <div className="membership_div_5">
-                                    <img src="images/nkimg/membership1.jpeg" className="membership_img_2" />
+                                    <img src="/images/nkimg/membership1.jpeg" className="membership_img_2" />
                                 </div>
                             </div>
                         </div>
@@ -99,8 +104,8 @@ const Members = () => {
                                 </div>
                                 <div className="button" data-toggle="modal" data-target="#exampleModalCenter">
                                     <ul>
-                                        <li className="button-li">
-                                            <a href="javascript:void(0)"> Join Now &nbsp;
+                                        <li className="button-li" onClick={handleClick}>
+                                            <a href="#"> Join Now &nbsp;
                                                 <span></span><span></span><span></span><span></span>
                                                 <i className="fa fa-arrow-right"></i>
                                             </a>
@@ -115,7 +120,7 @@ const Members = () => {
                                     <div className="row">
                                         <div className="col-lg-3 col-md-4 col-6">
                                             <div className="membership_div_2 text-center">
-                                                <img src="images/gallery/icon-hotels.jpg" className="membership_img_1" />
+                                                <img src="/images/gallery/icon-hotels.jpg" className="membership_img_1" />
                                                 <p className="membership_p_1">
                                                     HOTELS
                                                 </p>
@@ -123,7 +128,7 @@ const Members = () => {
                                         </div>
                                         <div className="col-lg-3 col-md-4 col-6">
                                             <div className="membership_div_2 text-center">
-                                                <img src="images/gallery/icon-flights.jpg" className="membership_img_1" />
+                                                <img src="/images/gallery/icon-flights.jpg" className="membership_img_1" />
                                                 <p className="membership_p_1">
                                                     FLIGHTS
                                                 </p>
@@ -131,7 +136,7 @@ const Members = () => {
                                         </div>
                                         <div className="col-lg-3 col-md-4 col-6">
                                             <div className="membership_div_2 text-center">
-                                                <img src="images/gallery/icon-resorts.jpg" className="membership_img_1" />
+                                                <img src="/images/gallery/icon-resorts.jpg" className="membership_img_1" />
                                                 <p className="membership_p_1">
                                                     RESORTS
                                                 </p>
@@ -139,7 +144,7 @@ const Members = () => {
                                         </div>
                                         <div className="col-lg-3 col-md-4 col-6">
                                             <div className="membership_div_2 text-center">
-                                                <img src="images/gallery/icon-trains.jpg" className="membership_img_1" />
+                                                <img src="/images/gallery/icon-trains.jpg" className="membership_img_1" />
                                                 <p className="membership_p_1">
                                                     TRAINS
                                                 </p>
@@ -147,7 +152,7 @@ const Members = () => {
                                         </div>
                                         <div className="col-lg-3 col-md-4 col-6">
                                             <div className="membership_div_2 text-center">
-                                                <img src="images/gallery/icon-car.jpg" className="membership_img_1" />
+                                                <img src="/images/gallery/icon-car.jpg" className="membership_img_1" />
                                                 <p className="membership_p_1">
                                                     CAR RENTALS
                                                 </p>
@@ -155,7 +160,7 @@ const Members = () => {
                                         </div>
                                         <div className="col-lg-3 col-md-4 col-6">
                                             <div className="membership_div_2 text-center">
-                                                <img src="images/gallery/icon-cruises.jpg" className="membership_img_1" />
+                                                <img src="/images/gallery/icon-cruises.jpg" className="membership_img_1" />
                                                 <p className="membership_p_1">
                                                     CRUISES
                                                 </p>
@@ -163,7 +168,7 @@ const Members = () => {
                                         </div>
                                         <div className="col-lg-3 col-md-4 col-6">
                                             <div className="membership_div_2 text-center">
-                                                <img src="images/gallery/icon-excursions.jpg" className="membership_img_1" />
+                                                <img src="/images/gallery/icon-excursions.jpg" className="membership_img_1" />
                                                 <p className="membership_p_1">
                                                     EXCURSIONS
                                                 </p>
@@ -171,7 +176,7 @@ const Members = () => {
                                         </div>
                                         <div className="col-lg-3 col-md-4 col-6">
                                             <div className="membership_div_2 text-center">
-                                                <img src="images/gallery/icon-activities.jpg" className="membership_img_1" />
+                                                <img src="/images/gallery/icon-activities.jpg" className="membership_img_1" />
                                                 <p className="membership_p_1">
                                                     ACTIVITIES
                                                 </p>
@@ -184,19 +189,19 @@ const Members = () => {
                     </div>
                 </div>
             </section>
-            <div className="modal fade membership_modal" id="exampleModalCenter" tabindex="-1" role="dialog"
+            <div className={`modal fade membership_modal ${show ? 'show' : ''}`} id="exampleModalCenter" tabIndex={-1} role="dialog"
                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                             <div className="close_btn_div">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={handleClick}>
                                     <span aria-hidden="true" className="close_membership">&times;</span>
                                 </button>
                             </div>
                             <div className="modal-body">
                                 <div className="modal-image_div">
-                                    <div className="modal_image_div"><img src="images/arrow.png" className="modal-img" alt="modal-img" /></div>
+                                    <div className="modal_image_div"><img src="/images/arrow.png" className="modal-img" alt="modal-img" /></div>
                                 </div>
                                 <p className="modal_p">Please Contact Your 02 Global Ambassador to Get Started</p>
                             </div>
@@ -261,7 +266,7 @@ const Members = () => {
                             <article className="post side-item content-padding format-link">
                                 <div className="item-wrap">
                                     <div className="item-media cover-image">
-                                        <img src="images/events/member-2.jpg" alt="img" />
+                                        <img src="/images/events/member-2.jpg" alt="img" />
                                         <div className="media-links">
                                             <a className="abs-link" title="" href="javascript:void()"></a>
                                         </div>
@@ -276,7 +281,7 @@ const Members = () => {
                             <article className="post side-item content-padding format-link">
                                 <div className="item-wrap">
                                     <div className="item-media cover-image">
-                                        <img src="images/events/member-4.jpg" alt="img" />
+                                        <img src="/images/events/member-4.jpg" alt="img" />
                                         <div className="media-links">
                                             <a className="abs-link" title="" href="javascript:void()"></a>
                                         </div>
@@ -291,7 +296,7 @@ const Members = () => {
                             <article className="post side-item content-padding format-link">
                                 <div className="item-wrap">
                                     <div className="item-media cover-image">
-                                        <img src="images/events/member-3.jpg" alt="img" />
+                                        <img src="/images/events/member-3.jpg" alt="img" />
                                         <div className="media-links">
                                             <a className="abs-link" title="" href="javascript:void()"></a>
                                         </div>
@@ -306,7 +311,7 @@ const Members = () => {
                             <article className="post side-item content-padding format-link">
                                 <div className="item-wrap">
                                     <div className="item-media cover-image">
-                                        <img src="images/events/member-1.jpg" alt="img" />
+                                        <img src="/images/events/member-1.jpg" alt="img" />
                                         <div className="media-links">
                                             <a className="abs-link" title="" href="javascript:void()"></a>
                                         </div>
@@ -320,8 +325,8 @@ const Members = () => {
                             </article>
                             <div className="button" data-toggle="modal" data-target="#exampleModalCenter">
                                 <ul>
-                                    <li className="button-li">
-                                        <a href="javascript:void(0)"> Join Now &nbsp;
+                                    <li className="button-li" onClick={handleClick}>
+                                        <a href="#"> Join Now &nbsp;
                                             <span></span><span></span><span></span><span></span>
                                             <i className="fa fa-arrow-right"></i>
                                         </a>
@@ -572,97 +577,7 @@ const Members = () => {
                 </div>
 
             </section>
-            <section id="quote"
-                className="ds s-pt-80 s-pb-130 s-pt-md-115 s-pb-md-195 s-pt-xl-125 s-pb-xl-160 s-parallax s-overlay  testimonials-section mb-5" style={{ display: "none" }}>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="owl-carousel" data-loop="false" data-margin="30" data-nav="false"
-                                data-dots="true" data-center="false" data-items="1" data-autoplay="true"
-                                data-responsive-xs="1" data-responsive-sm="1" data-responsive-md="1"
-                                data-responsive-lg="1">
-                                <div className="row">
-                                    <div className="col-12 col-xl-6">
-                                        <blockquote className="quote-item text-center">
-                                            <h5>Elmer Morrison</h5>
-                                            <p className="small-text color-main3">
-                                                Manager
-                                            </p>
-
-                                            <span className="quote-icon"><img src="images/quote.png" alt="img" /></span>
-
-                                            <p>
-                                                Bresaola pancetta jowl turkey shank, chuck porchetta tenderloin
-                                                hamburger picanha ground round!
-                                            </p>
-                                            <div className="divider-30 hidden-above-md"></div>
-                                            <div className="divider-30 hidden-below-md"></div>
-                                            <div>
-                                                <img src="images/signature.png" alt="img" />
-                                            </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="col-lg-6 d-none d-xl-block">
-                                        <img className="pl-lg-3" src="images/quote_1.jpg" alt="img" />
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-12 col-xl-6">
-                                        <blockquote className="quote-item text-center">
-                                            <h5>Andre Franklin</h5>
-                                            <p className="small-text color-main3">
-                                                Manager
-                                            </p>
-
-                                            <span className="quote-icon"><img src="images/quote.png" alt="img" /></span>
-
-                                            <p>
-                                                Strip steak alcatra chuck rump cow tri-tip short loin fatback
-                                                pancetta
-                                                jowl pork belly doner short ribs steak alcatra.
-                                            </p>
-                                            <div className="divider-30 hidden-above-md"></div>
-                                            <div className="divider-30 hidden-below-md"></div>
-                                            <div>
-                                                <img src="images/signature.png" alt="img" />
-                                            </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="col-lg-6 d-none d-xl-block">
-                                        <img className="pl-lg-3" src="images/quote_2.jpg" alt="img" />
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-12 col-xl-6">
-                                        <blockquote className="quote-item text-center">
-                                            <h5>Mittie Robertson</h5>
-                                            <p className="small-text color-main3">
-                                                Manager
-                                            </p>
-
-                                            <span className="quote-icon"><img src="images/quote.png" alt="img" /></span>
-
-                                            <p>
-                                                Tail strip steak beef pancetta short loin pork burgdoggen doner
-                                                venison
-                                                meatball turducken steak beef pancetta.
-                                            </p>
-                                            <div className="divider-30 hidden-above-md"></div>
-                                            <div className="divider-30 hidden-below-md"></div>
-                                            <div>
-                                                <img src="images/signature.png" alt="img" />
-                                            </div>
-                                        </blockquote>
-                                    </div>
-                                    <div className="col-lg-6 d-none d-xl-block">
-                                        <img className="pl-lg-3" src="images/quote_3.jpg" alt="img" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+           
 
 
         </div>

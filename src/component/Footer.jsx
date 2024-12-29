@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -22,7 +23,7 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li className="share-icon">
-                                        <a href="javascript:void(0)">
+                                        <a href="#">
 
                                             <b>x</b>
                                         </a>
@@ -68,25 +69,25 @@ const Footer = () => {
                                 <h5>Quick links</h5>
                                 <ul>
                                     <li className="active">
-                                        <a href="javascript:void(0)">Home</a>
+                                        <a href="/">Home</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">Membership</a>
+                                        <a href="/membership">Membership</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">Opportunity</a>
+                                        <a href="/opportunity">Opportunity</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">Training</a>
+                                        <a href="/training">Training</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">About Us</a>
+                                        <a href="/about-us">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">Events</a>
+                                        <a href="/events">Events</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)">Contact Us</a>
+                                        <a href="/contact-us">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -97,22 +98,22 @@ const Footer = () => {
                                 <ul>
 
                                     <li className="manage_padding">
-                                        <a href="javascript:void(0)">Terms & Conditions</a>
+                                        <Link to="/terms-and-conditions">Terms & Conditions</Link>
                                     </li>
                                     <li className="manage_padding">
-                                        <a href="javascript:void(0)">Privacy Policy</a>
+                                        <Link to="/privacy-policy">Privacy Policy</Link>
                                     </li>
                                     <li className="manage_padding">
-                                        <a href="javascript:void(0)">O2 Global Gear</a>
+                                        <a href="https://97702a.myshopify.com/password">O2 Global Gear</a>
                                     </li>
                                     <li className="manage_padding">
-                                        <a href="javascript:void(0)">Our Blogs</a>
+                                        <a href="#">Our Blogs</a>
                                     </li>
                                     <li className="manage_padding">
-                                        <a href="javascript:void(0)">Join Now</a>
+                                        <a href="https://o2ix.com/customer">Join Now</a>
                                     </li>
                                     <li className="manage_padding">
-                                        <a href="javascript:void(0)">Log In</a>
+                                        <a href="https://o2ix.com/customer">Log In</a>
                                     </li>
                                 </ul>
                             </div>

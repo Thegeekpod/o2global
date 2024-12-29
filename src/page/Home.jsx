@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from '../component/home/Banner'
 import SocialWall from '../component/home/SocialWall'
-
+import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Home = () => {
 
 			<section>
 				<div className="sndsection_div_1 mt-5 mb-5">
-					<img src="images/nkimg/Opportunity.jpeg" className="sndsection_img_1"/>
+					<img src="/images/nkimg/Opportunity.jpeg" className="sndsection_img_1"/>
 				</div>
 			</section>
 
@@ -30,7 +30,7 @@ const Home = () => {
 								</div>
 								<div className="col-lg-5 col-md-5 col-12">
 									<div className="whoweare_div_2">
-										<img className="tilt-img" src="images/nkimg/who-we-are.jpeg" alt="brand-side-image"/>
+										<img className="tilt-img" src="/images/nkimg/who-we-are.jpeg" alt="brand-side-image"/>
 									</div>
 								</div>
 							</div>
@@ -46,7 +46,7 @@ const Home = () => {
 							<p className="experience_p_1">
 								Experience unparalleled excellence with the industry's finest training seminars
 							</p>
-							<img src="images/nkimg/who-we-are2.jpeg" className="whoweare_img_1 mt-3"/>
+							<img src="/images/nkimg/who-we-are2.jpeg" className="whoweare_img_1 mt-3"/>
 							<p className="experience_p_2 mt-4">
 								O2 Global, partnered with Envision Success Seminars, brings a level of training proven to be light years ahead of any other program in the industry. Our powerful training curriculum is based on the principle that the greatest reason for success is simply following a proven path with correct knowledge and information.
 							</p>
@@ -54,10 +54,10 @@ const Home = () => {
 								<div className="button stay_button email_btn_1">
 									<ul>
 										<li className="button-li">
-											<a href="training.php"> Discover more
+											<Link to="/training"> Discover more
 												<span></span><span></span><span></span><span></span>
 												<i className="fa fa-arrow-right"></i>
-											</a>
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -72,12 +72,12 @@ const Home = () => {
 					<div className="row align-items-center">
 						<div className="col-lg-5">
 							<div className="reviews-left">
-								<img className="tilt-img" src="images/time.jpg" alt="brand-side-image"/>
+								<img className="tilt-img" src="/images/time.jpg" alt="brand-side-image"/>
 							</div>
 						</div>
 						<div className="col-lg-7  text-lg-center text-md-left">
 							<div className="section-title mb-4">
-								<img src="images/logo1.png" alt="Logo" className="logo_2_brand"/>
+								<img src="/images/logo1.png" alt="Logo" className="logo_2_brand"/>
 							</div>
 							<p className="mb-2 text-black"><b>Join Us at O2 Global!</b></p>
 							<p className="mb-2 text-black">
@@ -159,7 +159,7 @@ const Home = () => {
 			            	<div className="button stay_button socialmedia_btn_1">
 								<ul>
 									<li className="button-li">
-										<a href="social-media.php"> View all &nbsp;
+										<a href="/social-media"> View all &nbsp;
 											<span></span><span></span><span></span><span></span>
 											<i className="fa fa-arrow-right"></i>
 										</a>

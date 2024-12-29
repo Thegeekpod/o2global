@@ -43,19 +43,19 @@ const Header = () => {
 								<NavLink to="/membership">Membership</NavLink>
 							</li>
 							<li >
-								<a href="opportunity.php">Opportunity</a>
+								<a href="/opportunity">Opportunity</a>
 							</li>
 							<li>
-								<a href="training.php">Training</a>
+								<a href="/training">Training</a>
 							</li>
 							<li >
-								<a href="events.php">Events</a>
+								<a href="/events">Events</a>
 							</li>
 							<li className="new-nav-li">
 								<a href="https://97702a.myshopify.com/password">O2 Global Gear</a>
 							</li>
 							<li >
-								<a href="about-us.php">About Us</a>
+								<a href="/about-us">About Us</a>
 							</li>
 
 							{/* <li >
