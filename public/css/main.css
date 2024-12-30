@@ -24166,6 +24166,12 @@ about_main_area {
     padding: 35px 0 25px 0;
 }
 
+.opportunity_h_1 {
+    font-size: 18px;
+}
+
+
+
 @media only screen and (max-width: 770px) {
     .manage_padding {
         margin: 0 0 12px !important;

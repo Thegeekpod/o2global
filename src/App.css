@@ -124,9 +124,6 @@ align-items: center;
 .membership_area {
    margin:  0; 
 }
-.section-spacing {
-   padding:  0;
-}
 .p-font-size{
   font-size: 36px !important;
 }
@@ -136,9 +133,6 @@ align-items: center;
   }
   .membership_area {
       margin: 0px 0 0 0;
-  }
-  .section-spacing {
-      padding: 0px 0 0px 0;
   }
 }
 
@@ -241,3 +235,118 @@ align-items: center;
   background-color: transparent;
   padding: 0px;
 }
+
+/* ========================= nk oppertunity css ========================== */
+
+.opportunity_h_1 {
+  font-size: 18px;
+}
+.opportunity_p_1 {
+  width: 80%;
+  margin: auto;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #434343;
+}
+.opportunity_h_2 {
+  margin-bottom: 15px;
+}
+.opportunity_p_2 {
+  margin-bottom: 0px;
+  line-height: normal;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 10px 0px;
+  background-color: #30cbff78;
+}
+.opportunity_div_3 {
+  background-color: #ffffffad;
+  height: 100%;
+}
+.opportunity_p_3 {
+  padding: 15px;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #434343;
+}
+blockquote {
+  max-width: 100%;
+}
+.opportunity_p_5 {
+  margin-bottom: 5px;
+  line-height: normal;
+  font-size: 18px;
+  font-weight: 700;
+}
+.opportunity_p_6 {
+  line-height: 22px;
+  margin-bottom: 15px !important;
+  font-size: 14px;
+  font-weight: 600;
+  color: #434343;
+}
+.opportunity_div_6 {
+  border: 1px solid #b8b8b8;
+  background-color: transparent;
+  height: 100%;
+  box-shadow: 0 2px 43px 0 rgba(2, 2, 2, .07);
+  transition: all 0.4s ease;
+}
+.opportunity_div_6:hover {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+  -webkit-box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  box-shadow: 0 50px 30px -40px rgba(0, 0, 0, .1);
+  background-color: white;
+}
+.opportunity_img_1 {
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+}
+.opportunity_div_10 {
+  background-color: #21b8eb1a;
+}
+.opportunity_p_10 {
+  margin-bottom: 35px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #5496ca;
+  text-transform: capitalize;
+}
+.opportunity_p_11 {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #434343;
+}
+.opportunity_p_12 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #5496ca;
+  /*text-transform: capitalize;*/
+}
+.opportunity_ul_1 {
+  padding-left: 25px;
+  margin-top: 20px;
+}
+.opportunity_li_1 {
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.opportunity_img_2 {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+/* ========================= /nk oppertunity css ========================== */
+
+

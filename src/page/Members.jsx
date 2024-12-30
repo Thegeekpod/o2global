@@ -15,6 +15,12 @@ const Members = () => {
                         <div className="row">
                             <div className="col-md-12 text-center">
                                 <h1 className="bold">Membership </h1>
+                                {/* <ol className="breadcrumb">
+                                    <li className="breadcrumb-item">
+                                    <Link to="/">Home</Link>
+                                    </li>
+                                    <li className="breadcrumb-item">Membership</li>
+                                </ol> */}
                             </div>
                         </div>
                     </div>

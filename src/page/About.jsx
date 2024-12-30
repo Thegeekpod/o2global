@@ -9,7 +9,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h1 className="bold">About Us nandini</h1>
+              <h1 className="bold">About Us</h1>
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
                   <Link to="/">Home</Link>
@@ -115,7 +115,7 @@ const About = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div
                   className="about_sec1_div_9"
-                  style={{ backgroundImage: "url(/images/nkimg/team.jpg)" }}
+                  style={{ backgroundImage: "url(https://inextwebs.com/o2globaltravel/public/upload/about/aboutteamimage/786651717671830.jpg)" }}
                 >
                   <div className="about_sec1_div_10">
                     <div className="about_sec1_div_11">
@@ -215,7 +215,7 @@ const About = () => {
                       results.
                       <br />
                       <i>
-                        "At O2Global we are driven by a shared vision of
+                        "At O2 Global we are driven by a shared vision of
                         excellence and an unwavering commitment to delivering the
                         highest quality in everything we do. Our goal is not only
                         to achieve remarkable accomplishments as a company but
@@ -250,9 +250,9 @@ const About = () => {
               <div className="col-lg-5 col-md-5 col-12">
                 <div className="about_sec1_div_13">
                   <p className="about_sec1_p_7 text-center">
-                    Scott Clark
-                    <br />
-                    Product Development
+                      Scott Clark <br />
+                      Product <br />
+                      Development
                   </p>
                   <img src="/images/nkimg/327231717672093.jpg" className="about_sec1_img_1" />
                   {/* <div className="about_sec1_div_14" /> */}

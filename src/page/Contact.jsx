@@ -195,7 +195,7 @@ const Contact = () => {
                           <li className="button-li">
                             <a>
                               {" "}
-                              Submit
+                              Submit &nbsp;
                               <span />
                               <span />
                               <span />
