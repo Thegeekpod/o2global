@@ -9,7 +9,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h1 className="bold">About Us</h1>
+              <h1 className="bold">About Us nandini</h1>
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
                   <Link to="/">Home</Link>
