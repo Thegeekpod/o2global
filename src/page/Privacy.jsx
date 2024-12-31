@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Privacy = () => {
   return (
@@ -14,7 +15,7 @@ const Privacy = () => {
               <h1 className="bold">Terms And Conditions</h1>
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="https://inextwebs.com/o2globaltravel/public">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li className="breadcrumb-item active">Terms And Conditions</li>
               </ol>

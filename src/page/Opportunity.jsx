@@ -172,7 +172,7 @@ const Opportunity = () => {
                             <div className="row">
                                 <div className="col-lg-4 col-md-4 col-12">
                                     <div className="opportunity_div_6 text-center p-2">
-                                        <img src="https://inextwebs.com/o2globaltravel/public/upload/opportunity/opportunityimage/444331718011657.jpg" className="opportunity_img_1 mb-4" />
+                                        <img src="/images/opportunity/444331718011657.jpg" className="opportunity_img_1 mb-4" />
                                         <p className="opportunity_p_5">Lucrative Earning Potential</p>
                                         <p className="opportunity_p_6">
                                         As a Lifestyle Entrepreneur, you need tools to maximize your productivity and reach your goals.Gain access to state-of-the-art marketing tools and resources. Our user-friendly platform makes it easy to share our opportunity, track your progress, and grow your business.
@@ -181,7 +181,7 @@ const Opportunity = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-12">
                                     <div className="opportunity_div_6 text-center p-2">
-                                        <img src="https://inextwebs.com/o2globaltravel/public/upload/opportunity/opportunityimage/870951718011657.jpg" className="opportunity_img_1 mb-4" />
+                                        <img src="/images/opportunity/870951718011657.jpg" className="opportunity_img_1 mb-4" />
                                         <p className="opportunity_p_5"></p>
                                         <p className="opportunity_p_6">
                                         We offer a generous compensation plan that rewards your efforts and ambition. With multiple income streams and performance-based incentives, the sky&#039;s the limit on your earning potential. Our proven system ensures that your hard work pays off, giving you the financial freedom to live the lifestyle you desire.
@@ -190,7 +190,7 @@ const Opportunity = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-12">
                                     <div className="opportunity_div_6 text-center p-2">
-                                        <img src="https://inextwebs.com/o2globaltravel/public/upload/opportunity/opportunityimage/153931718011657.jpg" className="opportunity_img_1 mb-4" />
+                                        <img src="/images/opportunity/153931718011657.jpg" className="opportunity_img_1 mb-4" />
                                         <p className="opportunity_p_5">Freedom To Design Your Life</p>
                                         <p className="opportunity_p_6">
                                         At our company, we understand that lifestyle entrepreneurs value the freedom to design their lives according to their own rules. Our business model offers unparalleled flexibility, allowing you to work from anywhere, set your own schedule, and create a work-life balance that suits you. Whether you&#039;re traveling the world or spending time with family, you have the autonomy to prioritize what matters most.
@@ -211,7 +211,7 @@ const Opportunity = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-4 col-md-4 col-12 mb-5">
                                     <div className="opportunity_div_12">
-                                        <img src="https://inextwebs.com/o2globaltravel/public/upload/opportunity/opportunityimage/163371718015470.jpeg" className="opportunity_img_2" />
+                                        <img src="/images/opportunity/163371718015470.jpeg" className="opportunity_img_2" />
                                     </div>
                                 </div>
                                 <div className="col-lg-8 col-md-8 col-12">
@@ -246,14 +246,14 @@ const Opportunity = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-12 order-1 order-md-2">
                                     <div className="opportunity_div_12 mb-5">
-                                        <img src="https://inextwebs.com/o2globaltravel/public/upload/opportunity/opportunityimage/814201718015470.jpg" className="opportunity_img_2" />
+                                        <img src="/images/opportunity/814201718015470.jpg" className="opportunity_img_2" />
                                     </div>
                                 </div>
                             </div>
                             <div className="row align-items-center">
                                 <div className="col-lg-4 col-md-4 col-12">
                                     <div className="opportunity_div_12">
-                                        <img src="https://inextwebs.com/o2globaltravel/public/upload/opportunity/opportunityimage/890731718015470.jpg" className="opportunity_img_2" />
+                                        <img src="/images/opportunity/890731718015470.jpg" className="opportunity_img_2" />
                                     </div>
                                 </div>
                                 <div className="col-lg-8 col-md-8 col-12">
@@ -292,7 +292,7 @@ const Opportunity = () => {
                         <main className="col-lg-12 col-xl-12">
                             <article
                                 className="cover-image ds s-overlay post type-post status-publish format-quote has-post-thumbnail"
-                                style={{ backgroundImage: 'url("https://inextwebs.com/o2globaltravel/public/frontend/images/nkimg/kids.jpg")' }}
+                                style={{ backgroundImage: 'url("/images/opportunity/kids.jpg")' }}
                             >
                                 <a href="javascript:void()" data-gal="" />
                                 <div className="post-thumbnail">

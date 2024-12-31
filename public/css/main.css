@@ -8583,9 +8583,9 @@ img {
         width: 50%
     }
 
-    .cover-image>img {
+    /* .cover-image>img {
         visibility: hidden
-    }
+    } */
 
     .cover-image>a {
         bottom: 0;
@@ -9366,7 +9366,7 @@ body.boxed {
 .item-media {
     overflow: hidden;
     position: relative;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .item-media img {
@@ -23914,7 +23914,7 @@ about_main_area {
 
 .about_sec1_p_1 {
     color: black;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -23984,7 +23984,7 @@ about_main_area {
 
 .about_sec1_p_8 {
     line-height: 24px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
 }
 

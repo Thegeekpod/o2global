@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const Members = () => {
     const [show, setShow] = useState(false);
@@ -15,12 +16,12 @@ const Members = () => {
                         <div className="row">
                             <div className="col-md-12 text-center">
                                 <h1 className="bold">Membership </h1>
-                                {/* <ol className="breadcrumb">
+                                <ol className="breadcrumb">
                                     <li className="breadcrumb-item">
                                     <Link to="/">Home</Link>
                                     </li>
-                                    <li className="breadcrumb-item">Membership</li>
-                                </ol> */}
+                                    <li className="breadcrumb-item active">Membership</li>
+                                </ol>
                             </div>
                         </div>
                     </div>
