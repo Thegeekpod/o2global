@@ -366,24 +366,3 @@ img.imageContainer.small {
   font-size: 14px;
   font-weight: 500;
 }
-
-Add custom styles in your CSS
-.custom-translate-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.translate-label {
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
-}
-
-.custom-translate-select {
-  padding: 5px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #f9f9f9;
-}
